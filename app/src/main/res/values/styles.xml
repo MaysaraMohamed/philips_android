@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ECEAEB</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="profileTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="contactUSTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#7C7C7C</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="aboutUSTextViewtitle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="aboutUSTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="aboutUSTable">
+        <item name="android:textColor">#000</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:padding">13dp</item>
+    </style>
+
+    <style name="TextViewMyTheme">
+        <item name="android:background">#FFF</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="TextViewInvoicesHistoryTheme">
+        <item name="android:background">#FFF</item>
+        <item name="android:textColor">#034B73</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="TextViewMyBlueTheme">
+        <item name="android:background">#FFF</item>
+        <item name="android:textColor">#034B73</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+</resources>

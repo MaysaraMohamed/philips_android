@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">Philips Star</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Customer ID</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_password_not_match">Password not match</string>
+    <string name="error_password_should_be_different">Password Should be different</string>
+    <string name="oldPasswordNotMatch">Old Password Not Correct</string>
+    <string name="doubleClickToExit">Please click BACK again to exit</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="userName">Enter your user name</string>
+    <string name="password">Enter your password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="forgetPassword">Forget Your Password ?</string>
+    <string name="login">Login</string>
+    <string name="newUser">Register</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="mail">Email</string>
+    <string name="phone">Phone</string>
+    <string name="customerId">Customer ID</string>
+    <string name="myProfile">My Profile</string>
+    <string name="newBill">Insert New Bill</string>
+    <string name="invoicesHistory">Invoices History</string>
+    <string name="compensate">Redeem Points Now</string>
+    <string name="about">About</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="logout">Logout</string>
+    <string name="rate">Rate</string>
+    <string name="loginFailed">Login Failed</string>
+    <string name="userNotFound">User Not Found</string>
+    <string name="connectionError">Connection Failed Please Try Again Later</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="invoice">Invoice</string>
+    <string name="restPassword">Rest Password</string>
+    <string name="sendPassword">Send Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="recievedPassword">Old or Received Password</string>
+    <string name="passwordSent">Password sent</string>
+    <string name="failedToSendPassword">Failed to Send Password</string>
+    <string name="invoiceDate">Invoice Date</string>
+    <string name="invoiceNumber">sales ID</string>
+    <string name="invoiceNumberET">Invoice Number</string>
+    <string name="netSale">Net Sale</string>
+    <string name="addItem">Add Item</string>
+    <string name="invoiceMatched">Invoice Matched</string>
+    <string name="invoiceNotMatched">Invoice Not Match</string>
+    <string name="invoiceSubmitted">Invoice submitted successfully and wait for validation in next 72 hours</string>
+    <string name="invoiceNotSubmitted">Failed to Submit Invoice please try again</string>
+    <string name="currentPoints">Current Points : </string>
+    <string name="pointsToRdeem">Points to Redeem</string>
+    <string name="choseURGift">Chose your gift</string>
+    <string name="welcometo">Welcome to</string>
+    <string name="philips">Philips Star</string>
+    <string name="philipsDesc">Taking our relationship beyond business</string>
+    <string name="totalNetSale">Total Net Sale</string>
+    <string name="category">Category</string>
+    <string name="mailOrID">Enter A Registered Mail ID</string>
+    <string name="welcome">Welcome</string>
+    <string name="edit">[Edit/Update]</string>
+
+    <string name="pointsTillDate">Points Till Date</string>
+    <string name="bonusPoints">Pending points</string>
+    <string name="redeemedPoints">Redeemed Points</string>
+    <string name="netTotalPoints">Net Total Points</string>
+    <string name="send">Send</string>
+    <string name="comment">Write your comment</string>
+    <string name="empty">Empty</string>
+
+    <string name="contactUsLocationAddress">81 Abo Dawd al zahry Nasr City, Cairo, Egypt</string>
+    <string name="contactUsLocationName">Philips Star Program Center</string>
+    <string name="contactUsCall">+2 0224801610</string>
+    <string name="contactUsMailtitle">Write To Us</string>
+    <!--should be for both Arabic and English-->
+    <string name="contactUsMail">Helpdesk@signify.com</string>
+    <string name="type1">Pyramids</string>
+    <string name="type2">Nabil Besheer</string>
+    <string name="version">Version 1.0</string>
+
+    <string name="keeplogin">Keep me logged in</string>
+    <string name="main">Main</string>
+    <string name="language">Language</string>
+
+    <string-array name="lang_list">
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+
+    <string name="myProfileSetting">My Profile Setting</string>
+    <string name="changePassword">Change Password</string>
+
+    <string name="setting">Settings</string>
+    <string name="points">Points</string>
+    <string name="status">Status</string>
+    <string name="gifts">Gifts Options</string>
+
+    <string name="invalidSalesId">Invalid Sales ID</string>
+    <string name="invalidInvoiceDate">Wrong Invoice Date</string>
+    <string name="wrongUserName">Invoice Not related to user</string>
+    <string name="wrongInvoiceData">Wrong Invoice data</string>
+    <string name="validatedSuccessfully">Success</string>
+    <string name="error">Error</string>
+    <string name="underValidation">Under Validation</string>
+
+
+    <!-- About the program-->
+
+    <string name="pointsEarningsLine1">You can earn points on the purchase of Philips Lighting products covered under this program. Points will be based on the value of purchase</string>
+    <string name="pointsEarningsLine2">Maximize your earnings by accumulating Bonus points on yearly basis.</string>
+
+    <string name="pointsRedemptionLine1">1- Log on to Mobile Application by entering your PIN (Program Identification Number) and password</string>
+    <string name="pointsRedemptionLine2">2- Click on ‘My Page’ to check your current points status, and then click on ‘Redeem Now’ to proceed.</string>
+    <string name="pointsRedemptionLine3">3- Redemption process will be initiated, and Philips Sales Team will get in touch with you within 7 days and it will be settled in form Credit Note till the event day that will take place every six month to receive your gift</string>
+
+
+    <string name="pointsRedemption">Points Redemption</string>
+    <string name="aboutProgram">About the Program</string>
+    <string name="pointsEarnings">Points Earnings</string>
+    <string name="giftsList">Gifts list</string>
+    <string name="aboutProgramLine1">Philips Star is all about celebrating our partnership and unwavering quest for excellence.</string>
+    <string name="aboutProgramLine2">As a member, you will earn points on purchase of Philips Lighting products. These points will be based
+        on the value of purchase and can be redeemed for rewards mentioned in the rewards catalogue.</string>
+
+    <string name="tradePoints">Trade -> 1 point = 700 EGP</string>
+    <string name="ledPoints">LED -> 1 point= 100 EGP</string>
+    <string name="lampsPoints">Lamps -> 1 point= 500 EGP</string>
+    <string name="error_data">Please review your data and try again</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_setting">Setting</string>
+
+
+</resources>

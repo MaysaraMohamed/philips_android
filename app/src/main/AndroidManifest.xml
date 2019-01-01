@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.philipslight.egypt">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/login_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/login_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".Home" -->
+        <!-- android:label="@string/dashboard" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" -->
+        <!-- android:launchMode="singleInstance"/> -->
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewInvoice"
+            android:label="@string/newBill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/contactUs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/myProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SendPassword"
+            android:label="@string/restPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Compensate"
+            android:label="@string/compensate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:label="@string/restPassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Setting"
+            android:label="@string/setting"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+    </application>
+
+</manifest>

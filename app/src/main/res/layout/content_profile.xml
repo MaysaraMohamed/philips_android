@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Profile">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainConstraint">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profileImageView"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:elevation="10dp"
+            android:src="@drawable/mohamed"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/helloEditProfileBT1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:clickable="false"
+                android:text="@string/welcome"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/profileImageView"
+                app:layout_constraintVertical_bias="0.16000003" />
+
+            <Button
+                android:id="@+id/editProfileBT2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="@string/edit"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/editProfileBT1"
+                app:layout_constraintTop_toTopOf="@+id/profileImageView"
+                app:layout_constraintVertical_bias="0.16000003" />
+        </LinearLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="#ECEAEB"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <TextView
+                android:id="@+id/nametextView7"
+                style="@style/profileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/userNametextView8"
+                style="@style/profileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+    <TableLayout
+        android:id="@+id/layout_pinlock_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:stretchColumns="*"
+        android:background="#ECEAEB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.0"
+        >
+
+        <TableRow
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                style="@style/TextViewMyTheme"
+                android:id="@+id/pointsTillDateTvTitle"
+                android:layout_marginRight="2dp"
+                android:text="@string/pointsTillDate" />
+
+            <TextView
+                style="@style/TextViewMyBlueTheme"
+                android:id="@+id/pointsTillDateTv"
+                android:layout_marginRight="2dp"
+                android:text="0.0"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextViewMyTheme"
+                android:id="@+id/bonusPointsTvTitle"
+                android:layout_marginRight="2dp"
+                android:text="@string/bonusPoints" />
+
+            <TextView
+                style="@style/TextViewMyBlueTheme"
+                android:id="@+id/bonusPointsTv"
+                android:layout_marginRight="2dp"
+                android:text="0.0"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                style="@style/TextViewMyTheme"
+                android:id="@+id/redeemedPointsTvTitle"
+                android:layout_marginRight="2dp"
+                android:text="@string/redeemedPoints" />
+
+            <TextView
+                style="@style/TextViewMyBlueTheme"
+                android:id="@+id/redeemedPointsTv"
+                android:layout_marginRight="2dp"
+                android:text="0.0"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp">
+
+            <TextView
+                style="@style/TextViewMyTheme"
+                android:id="@+id/netTotalPointsTvTitle"
+                android:layout_marginRight="2dp"
+                android:text="@string/netTotalPoints" />
+
+            <TextView
+                style="@style/TextViewMyBlueTheme"
+                android:textStyle="bold"
+                android:id="@+id/netTotalPointsTv"
+                android:layout_marginRight="2dp"
+                android:text="0.0"/>
+
+        </TableRow>
+    </TableLayout>
+
+        <Button
+            android:id="@+id/addNewInvoiceButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:text="@string/newBill"
+            android:textColor="#FFFDF9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_pinlock_buttons"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/invoicesHistoryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:text="@string/invoicesHistory"
+            android:layout_marginTop="2dp"
+            android:textColor="#FFFDF9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addNewInvoiceButton"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/invoicesHistoryButton"
+            app:layout_constraintVertical_bias="0.0">
+        <TableLayout
+            android:id="@+id/invoicesHistoryLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:stretchColumns="*"
+            android:visibility="gone"
+            android:background="#ECEAEB"
+            >
+
+        <TableRow
+            android:layout_marginBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#dbd9d9"
+            android:id="@+id/invoiceHistoryHeader">
+
+            <TextView
+                style="@style/TextViewInvoicesHistoryTheme"
+                android:id="@+id/pointsTillDateTvTitlef"
+                android:layout_marginRight="2dp"
+                android:text="@string/invoiceNumber" />
+
+            <TextView
+                style="@style/TextViewInvoicesHistoryTheme"
+                android:id="@+id/pointsTillDateTvf54"
+                android:layout_marginRight="2dp"
+                android:text="@string/invoiceDate"/>
+            <TextView
+                style="@style/TextViewInvoicesHistoryTheme"
+                android:id="@+id/pointsTillDateTvf45"
+                android:layout_marginRight="2dp"
+                android:text="@string/points"/>
+            <TextView
+                style="@style/TextViewInvoicesHistoryTheme"
+                android:id="@+id/pointsTillDateTvf495"
+                android:layout_marginRight="2dp"
+                android:text="@string/netSale"/>
+            <TextView
+                style="@style/TextViewInvoicesHistoryTheme"
+                android:id="@+id/pointsTillDateTvf67"
+                android:layout_marginRight="2dp"
+                android:text="@string/status"/>
+
+        </TableRow>
+        </TableLayout>
+        </HorizontalScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

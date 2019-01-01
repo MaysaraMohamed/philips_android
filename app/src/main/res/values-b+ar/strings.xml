@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">فيليبس ستار</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="error">خطأ</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="error_password_not_match">كلمة المرور غير متطابقة</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirmPassword">تأكيد كلمة المرور</string>
+    <string name="submit">تأكيد</string>
+    <string name="forgetPassword">نسيت كلمة المرور ؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="newUser">مستخدم جديد</string>
+    <string name="name">الإسم</string>
+    <string name="address">العنوان</string>
+    <string name="mail">البريد الالكترونى</string>
+    <string name="phone">رقم الموبيل</string>
+    <string name="customerId">رقم العميل</string>
+    <string name="error_field_required">يجب ان يحتوى على قيمة</string>
+
+    <string name="invalidSalesId">خطأ فى رقم الفاتورة</string>
+    <string name="invalidInvoiceDate">خطأ فى تاريخ الفاتورة</string>
+    <string name="wrongUserName">إسم المسختدم خطأ</string>
+    <string name="wrongInvoiceData">خطأ فى بيانات الفاتورة</string>
+    <string name="validatedSuccessfully">تمت المراجعة بنجاح</string>
+    <string name="underValidation">يتم مراجعة الفاتورة</string>
+    <string name="version">إصدار 1.0</string>
+
+    <string name="status">الحالة</string>
+    <string name="invoicesHistory">الفواتير السابقة</string>
+    <string name="myProfile">صفحتى الشخصية</string>
+    <string name="newBill">تسجيل فاتورة جديدة</string>
+    <string name="compensate">استبدال النقاط</string>
+    <string name="about">عن البرنامج</string>
+    <string name="contactUs">أتصل بنا</string>
+    <string name="logout">خروج</string>
+    <string name="rate">تقييم البرنامج</string>
+    <string name="loginFailed">خطأ فى كلمة المرور او اسم المستخدم</string>
+    <string name="connectionError">خطأ فى الاتصال برجاء المحاولة فى وقت لاحق</string>
+    <string name="dashboard">لوحة التحكم</string>
+    <string name="userNotFound">إسم المستخدم غير موجود</string>
+    <string name="invoice">فاتورة جديدة</string>
+    <string name="restPassword">إعادة تعيين كلمة المرور</string>
+    <string name="sendPassword">إرسال كلمة المرور</string>
+    <string name="newPassword">كلمة المرور الجديدة</string>
+    <string name="recievedPassword">كلمة المرور المستلمة او القديمة</string>
+    <string name="oldPasswordNotMatch">كلمة المرو القديمة غير صحيحة</string>
+    <string name="doubleClickToExit">برجاء الضغط مره اخرى للخروج</string>
+    <string name="changePassword">تغيير كلمة المرور</string>
+    <string name="error_password_should_be_different">كلمة المرور الجديده يجب ان تكون مختلفة</string>
+    <string name="passwordSent">تم إرسال كلمة المرور</string>
+    <string name="failedToSendPassword">خطأ اثناء ارسال كملة المرور</string>
+    <string name="invoiceDate">تاريخ التاريخ</string>
+    <string name="invoiceNumber">#الفاتورة</string>
+    <string name="invoiceNumberET">رقم الفاتورة</string>
+    <string name="netSale">الاجمالى</string>
+    <string name="addItem">إضافة عنصر</string>
+    <string name="invoiceMatched">تم حفظ الفاتورة بنجاح</string>
+    <string name="invoiceNotMatched">برجاء مراجعة بيانات الفاتورة</string>
+    Invoice submitted successfully and wait for validation in next 72 hours
+    <string name="invoiceSubmitted">تم حفظ الفاتورة بنجاح برجاء الانتظار 72 ساعة حتى يتم مراجعة الفاتورة</string>
+    <string name="invoiceNotSubmitted">برجاء مراجعة بيانات الفاتورة</string>
+    <string name="currentPoints">النقاط الحالية : </string>
+    <string name="pointsToRdeem">عدد النقطاء</string>
+    <string name="choseURGift">أختر هديتك</string>
+    <string name="welcometo">مرحبا بك فى </string>
+    <string name="philips">فيليبس ستار</string>
+    <string name="philipsDesc">Taking our relationship beyond business</string>
+    <string name="totalNetSale">إجمالى الفاتورة</string>
+    <string name="category">النوع</string>
+    <string name="mailOrID">البريد الاكترونى او اسم المستخدم</string>
+    <string name="welcome">مرحبا</string>
+    <string name="edit">[تعديل البيانات]</string>
+    <string name="wrongData">يوجد خطأ فى البيانات براجاء مراجعة البيانات مره اخرى</string>
+
+    <string name="pointsTillDate">النقاط حتى الآن</string>
+    <string name="bonusPoints">نقاط تحت التأكيد</string>
+    <string name="redeemedPoints">النقاط المستبدلة</string>
+    <string name="netTotalPoints">إجمالى النقاط المتبقية</string>
+    <string name="send">إرسال</string>
+    <string name="comment">أكتب تعليقك</string>
+
+    <string name="setting">الاختيارات</string>
+    <string name="main">الرئيسية</string>
+    <string name="myProfileSetting">الاعدادات الشخصية</string>
+    <string name="keeplogin">البقاء متصل</string>
+    <string name="language">اللغة</string>
+
+    <string name="contactUsLocationAddress">81 ابو داوود الظاهرى - ميدنة نصر - القاهرة - مصر</string>
+    <string name="contactUsLocationName">Philips Star Program Center</string>
+    <string name="contactUsCall">+2 0224801610</string>
+    <string name="contactUsMailtitle">إرسل لنا</string>
+    <!--should be for both Arabic and English-->
+    <string name="contactUsMail">Helpdesk@signify.com</string>
+
+    <string name="type1">بيراميدز</string>
+    <string name="type2">نبيل بشير</string>
+
+    <string name="empty">فارغ</string>
+
+    <!-- About the program-->
+
+    <string name="aboutProgram">عن البرنامج</string>
+    <string name="pointsEarnings">النقاط المجمعة</string>
+    <string name="giftsList">قائمة الهدايا</string>
+    <string name="points">النقاط</string>
+    <string name="gifts">الهدايا</string>
+
+
+    <string name="pointsEarningsLine1">هتقدر تحصل على النقاط لما تشتري منتجات فيليبس للإضاءة الموجودة في البرنامج ده. والنقط دي هتعتمد على قيمة مشترياتك.</string>
+    <string name="pointsEarningsLine2">كبر مكسبك بتجميع كمية كبيرة من النقاط على مدار السنة.</string>
+
+    <string name="pointsRedemptionLine1">1- سجل نقاطك على تطبيق فيليبس ستارعلى تليفونك عن طريق إدخال رقمك التعريفي وكلمة السر.</string>
+    <string name="pointsRedemptionLine2">2- اضغط على "صفحتك الخاصة" وشوف جمعت كام نقطة لحد دلوقتي، بعدها اضغط على "استبدل الأن" عشان تبدأ.</string>
+    <string name="pointsRedemptionLine3">3- مجرد ما عملية الاستبدال تتم, فريق فيليبس للمبيعات هيتواصل معاك خلال 7 أيام وهيتم عرضها على شكل نقاط مستحقة لحد يوم الاحتفال اللي هيُعقد كل 6 شهور عشان تستلم هديتك.</string>
+
+
+    <string name="pointsRedemption">استبدال النقاط</string>
+    <string name="aboutProgramLine1">تطبيق فيليبس ستار للمكافآت ما هو الا اهتمام من فيليبس بشركائها وسعينا الدائم المستمر لتطويرهم. </string>
+    <string name="aboutProgramLine2">هتقدر تجمع نقط على شرائك منتجات فيليبس للإضاءة.
+            النقط دي هتعتمد على قيمة مشترياتك وتقدر تستبدلها بالمكافآت الموجودة في كتالوج المكافآت.
+            </string>
+
+    <string name="tradePoints">تريد -> 1 نقطة = 700 جنية</string>
+    <string name="ledPoints">ليد -> 1 نقطة = 100 جنيه</string>
+    <string name="lampsPoints">لمبات -> 1 نقطة = 500 جنية</string>
+
+    <string name="error_data"> برجاء مراجعة البيانات والمحاوله مره اخرة</string>
+
+</resources>

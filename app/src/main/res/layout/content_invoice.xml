@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".NewInvoice">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:focusedByDefault="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/invoiceSalesNumberET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:ems="10"
+            android:focusedByDefault="false"
+            android:hint="@string/invoiceNumberET"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.047" />
+
+        <Button
+            android:id="@+id/invoiceDateButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/invoiceDate"
+            android:textColor="#FFFDF9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/invoiceSalesNumberET"
+            app:layout_constraintVertical_bias="0.014" />
+
+
+        <Button
+            android:id="@+id/submitInvoiceButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:text="@string/submit"
+            android:textColor="#FFFDF9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/addInvoiceItemButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_button"
+            android:text="@string/addItem"
+            android:textColor="#FFFDF9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/invoiceCategoryLayout" />
+
+        <LinearLayout
+            android:id="@+id/invoiceCategoryLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:focusable="true"
+            app:layout_constraintBottom_toTopOf="@+id/addInvoiceItemButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/invoiceDateButton"
+            app:layout_constraintVertical_bias="0.55">
+
+            <Spinner
+                android:id="@+id/invoiceCategory"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="183dp" />
+
+            <Spinner
+                android:id="@+id/subCategorySP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:textAlignment="viewStart"
+                tools:layout_editor_absoluteX="262dp"
+                tools:layout_editor_absoluteY="183dp" />
+
+            <EditText
+                android:id="@+id/invoiceINetSaleET"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/netSale"
+                android:inputType="numberDecimal"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="183dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/submittedScrollView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/submitInvoiceButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addInvoiceItemButton"
+            app:layout_constraintVertical_bias="0.120000005">
+
+            <TableLayout
+                android:id="@+id/tableInvoices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:stretchColumns="*"></TableLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/submittedScrollView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/submitInvoiceButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/submittedScrollView"
+            app:layout_constraintVertical_bias="0.24000001">
+
+            <TableLayout
+                android:id="@+id/tableinvoicesSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:stretchColumns="*"></TableLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/totalNetSaleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/totalNetSale"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/submitInvoiceButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.67"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/submittedScrollView2" />
+
+        <TextView
+            android:id="@+id/NetSaleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/totalNetSale"
+            android:textStyle="bold|italic"
+            android:textColor="#000"
+            app:layout_constraintBottom_toTopOf="@+id/submitInvoiceButton"
+            app:layout_constraintEnd_toStartOf="@+id/totalNetSaleTV"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/submittedScrollView2" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v4.widget.NestedScrollView>

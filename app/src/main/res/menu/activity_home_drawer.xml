@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@mipmap/profile_icon"
+            android:title="@string/myProfile" />
+        <item
+            android:id="@+id/nav_newBill"
+            android:icon="@mipmap/bill"
+            android:title="@string/newBill" />
+        <item
+            android:id="@+id/nav_compensate"
+            android:icon="@mipmap/exchange"
+            android:title="@string/compensate" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/setting"
+            android:title="@string/setting" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/icons8_about"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_contactUs"
+            android:icon="@android:drawable/stat_sys_speakerphone"
+            android:title="@string/contactUs" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/logout"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/rate" />
+    </group>
+
+</menu>
